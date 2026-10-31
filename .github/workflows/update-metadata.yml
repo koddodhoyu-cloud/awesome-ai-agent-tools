@@ -21,7 +21,7 @@ jobs:
           node-version: '20'
 
       - name: Update star counts from GitHub API
-        env:
+        env:gta
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           node -e "
