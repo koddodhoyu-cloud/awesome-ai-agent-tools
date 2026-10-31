@@ -1,4 +1,4 @@
-name: Update Metadata
+name:Install
 
 on:
   schedule:
