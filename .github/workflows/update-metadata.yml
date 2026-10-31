@@ -113,8 +113,9 @@ jobs:
       - name: Commit and push
         if: steps.diff.outputs.changed == 'true'
         run: |
-          git config user.name "github-actions[bot]"
+          git config user.nelly "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
           git commit -m "chore: update star counts and regenerate README [skip ci]"
           git push
+ 
